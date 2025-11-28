@@ -1,9 +1,5 @@
-from fastapi import APIRouter
-
-
-router = APIRouter()
-
-
-@router.get("/")
-def ai_status():
-return {"ai_engine": "online"}
+def process_ai(data: dict):
+    return {
+        "message": "AI Engine placeholder",
+        "input": data
+    }

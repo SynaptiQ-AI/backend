@@ -1,5 +1,7 @@
 from pydantic import BaseModel
 
-
 class AnalysisRequest(BaseModel):
-dataset: dict
+    data: dict
+
+class AnalysisResponse(BaseModel):
+    result: dict

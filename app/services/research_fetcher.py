@@ -1,2 +1,5 @@
-def fetch_research(query: str):
-return {"query": query, "results": []}
+def fetch_research(topic: str):
+    return {
+        "topic": topic,
+        "papers": []
+    }

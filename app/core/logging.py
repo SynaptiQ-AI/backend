@@ -1,5 +1,4 @@
 import logging
 
-
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("Synapti-Q")
+logger = logging.getLogger("synapti-q")

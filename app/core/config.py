@@ -1,6 +1,2 @@
-class Settings:
-PROJECT_NAME = "Synapti-Q"
+APP_NAME = "Synapti-Q"
 VERSION = "1.0.0"
-
-
-settings = Settings()

@@ -1,2 +1,4 @@
-def validate_data(data: dict) -> bool:
-return isinstance(data, dict) and len(data) > 0
+def validate_data(data: dict):
+    if not isinstance(data, dict):
+        return False
+    return True
